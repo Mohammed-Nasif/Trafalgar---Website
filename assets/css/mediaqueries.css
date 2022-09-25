@@ -1,0 +1,160 @@
+/* Start Responsive Media Queries */
+@media (max-width: 567px) {
+	html {
+		font-size: 70%;
+	}
+	body {
+		text-align: center;
+	}
+	.container {
+		width: 90%;
+	}
+	.navbar {
+		margin-bottom: 8rem;
+		justify-content: center;
+		align-items: center;
+		padding: 2rem;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.098);
+	}
+	.navlist {
+		display: none;
+	}
+	.hero-img:not(.hero-img:nth-of-type(2)) {
+		transform-origin: center center;
+		transform: scale(0.5);
+	}
+	.hero-img:nth-of-type(2) {
+		transform-origin: center center;
+		transform: scale(0.5);
+	}
+	.hero-section,
+	.providers,
+	.download,
+	.services {
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 4rem;
+	}
+	.serv-info p {
+		width: 30rem;
+	}
+	footer {
+		flex-wrap: wrap;
+		text-align: left;
+		padding: 8rem 5rem;
+	}
+	.f1 {
+		order: 1;
+	}
+	.f1 p {
+		flex-grow: 4;
+	}
+	.footerlist {
+		flex-direction: column;
+		width: 35%;
+		align-items: flex-start;
+		gap: 1rem;
+	}
+	.underlined::before {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.art-card {
+		width: 60%;
+	}
+	.cust-review {
+		flex-direction: column;
+		gap: 1.875rem;
+	}
+	.serv-card {
+		width: 60%;
+		height: 110%;
+	}
+}
+@media (max-width: 992px) and (min-width: 567px) {
+	body {
+		text-align: center;
+	}
+	.container {
+		width: 85%;
+	}
+	.navbar {
+		margin-bottom: 10rem;
+	}
+	.hero-img:not(.hero-img:nth-of-type(2)) {
+		transform-origin: center center;
+		transform: scale(0.55);
+	}
+	.hero-img:nth-of-type(2) {
+		transform-origin: center center;
+		transform: scale(0.55);
+	}
+	.hero-section,
+	.providers,
+	.download,
+	.services {
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 5rem;
+	}
+	.serv-info p {
+		width: 48rem;
+	}
+	footer {
+		flex-wrap: wrap;
+		text-align: left;
+		padding: 3rem 5rem;
+		gap: 1rem;
+	}
+	.f1 {
+		order: 1;
+	}
+	.f1 p {
+		flex-grow: 4;
+	}
+	.footerlist {
+		flex-direction: column;
+		width: 28%;
+		align-items: flex-start;
+		gap: 1rem;
+	}
+	.underlined::before {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.art-card {
+		width: 40%;
+	}
+	.cust-review {
+		flex-direction: column;
+		gap: 1.875rem;
+	}
+	.serv-card {
+		width: 45%;
+	}
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+	html {
+		font-size: 90%;
+	}
+	.container {
+		width: 85%;
+	}
+	.hero-img:not(.hero-img:nth-of-type(2)) {
+		transform-origin: right center;
+		transform: scale(0.7);
+	}
+	.hero-img:nth-of-type(2) {
+		transform-origin: left center;
+		transform: scale(0.7);
+	}
+	footer {
+		flex-wrap: wrap;
+	}
+	.f1 p {
+		flex-grow: 4;
+	}
+}
+/* End Responsive Media Queries */
