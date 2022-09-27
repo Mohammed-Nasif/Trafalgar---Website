@@ -1,4 +1,4 @@
-# Trafalgar Medical Website
+# Trafalgar-Medical-Website
 
 ### Trafalgar Medical Website - ITI (HTML5 - CSS3 and Responsive Course)  Task 
 
