@@ -1,6 +1,6 @@
-# Trafalgar-Website
+# Trafalgar Medical Website
 
-### Trafalgar Website - ITI (HTML5 - CSS3 and Responsive Course)  Task 
+### Trafalgar Medical Website - ITI (HTML5 - CSS3 and Responsive Course)  Task 
 
 ---
 
